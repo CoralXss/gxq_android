@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee">
+
+    <include layout="@layout/public_top_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/ll_top"/>
+
+<ScrollView
+        android:id="@+id/sl_center"
+        android:layout_below="@id/ll_top"
+        android:layout_above="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/MyViewStyle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="新人专享103期"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:gravity="center_vertical"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="33天期限"
+                android:textSize="12sp"
+                android:textColor="#000"
+                android:background="@drawable/bg_tv_light_orange"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_deadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="年化收益"
+            android:textSize="14sp"
+            android:textColor="@color/COLOR_BBBBBB"
+            android:padding="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_profit_rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="8.00%"
+            android:textSize="45sp"
+            android:textColor="@color/color_FF8915"
+            android:layout_marginBottom="25dp"/>
+
+        <LinearLayout
+            style="@style/MyViewStyle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="上市公司担保回购"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:gravity="center_vertical"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/pic_gift"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@drawable/pic_right_arrow"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/MyViewStyle" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="可使用新手体验券、抵扣券"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/pic_cupon"
+            />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/MyViewStyle"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="收益小助手"
+            android:textSize="15sp"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/pic_bub"
+            android:drawablePadding="5dp"/>
+
+        <ImageView
+            android:id="@+id/img_profit_picture"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_circle_picture"
+            android:src="@drawable/pic_ball"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_profit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="预期收益：0.72 元"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_profit_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="吃饭每顿加个蛋"
+            android:layout_marginBottom="10dp"/>
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:progressDrawable="@drawable/bg_seekbar"
+            android:thumb="@drawable/pic_seekbar"
+            android:max="100" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="100元"
+                android:textSize="12sp"
+                android:textColor="@color/COLOR_BBBBBB"
+                android:gravity="center_vertical" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200,000元"
+                android:textSize="12sp"
+                android:textColor="@color/COLOR_BBBBBB"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/ll_bottom">
+        <ImageView
+            android:id="@+id/img_compute_profit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/pic_compute"
+            android:background="@color/color_FF8309"
+            android:gravity="center"
+            android:padding="20dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="立即购买(剩余386,000,000.00元)\n申购人数：46人"
+            android:textSize="14sp"
+            android:textColor="#fff"
+            android:layout_height="match_parent"
+            android:background="@color/color_FF9C3B"
+            android:gravity="center"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_F1F1F1">
+
+    <include layout="@layout/public_top_title" />
+
+    <LinearLayout
+        style="@style/MyViewStyle"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        style="@style/MyViewStyle" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#fff">
+
+            <LinearLayout
+                android:id="@+id/ll_new_only_share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="#fff">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="新人专享"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:layout_marginTop="12dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="航空公司担保回购"
+                        android:textColor="@color/color_BCBCBC"
+                        android:textSize="10sp"
+                        android:padding="4dp"
+                        android:background="@drawable/bg_txt_gray"
+                        android:layout_marginRight="10dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="首购立送20"
+                        android:textColor="@color/color_BCBCBC"
+                        android:textSize="10sp"
+                        android:padding="4dp"
+                        android:background="@drawable/bg_txt_gray"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8.00%"
+                    android:textColor="@color/color_FFAD5D"
+                    android:textSize="40sp"
+                    android:gravity="center"
+                    android:layout_marginTop="24dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="24dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="13天期限"
+                        android:textColor="@color/color_BCBCBC"
+                        android:textSize="12sp"
+                        />
+                    <LinearLayout
+                        style="@style/MyVerticalViewStyle"
+                         android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="100元起购"
+                        android:textColor="@color/color_BCBCBC"
+                        android:textSize="12sp" />
+                    <LinearLayout
+                        style="@style/MyVerticalViewStyle"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9%募集"
+                        android:textColor="@color/color_BCBCBC"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="立即购买\n(剩余363,000.00元)"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:background="@drawable/bg_btn_purchase"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

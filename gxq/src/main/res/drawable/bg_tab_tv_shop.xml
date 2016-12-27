@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--默认的drawable必须放在最后，否则不起作用-->
+    <item android:drawable="@drawable/icon_tab_shop_normal" android:state_selected="false"/>
+    <item android:drawable="@drawable/icon_tab_shop_selected" android:state_selected="true" />
+    <item android:drawable="@drawable/icon_tab_shop_normal"/>
+</selector>

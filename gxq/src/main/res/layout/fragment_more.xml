@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fff"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:id="@+id/tv_left_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pic_left_back"
+            android:gravity="center"
+            android:layout_marginRight="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_open_popWindow"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="滚雪球"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:gravity="center"
+            />
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/arrow_down"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="#BBBBBB"
+        android:textSize="16sp"
+        android:text="近一月份平均万份收益（元）"/>
+
+    <TextView
+        android:id="@+id/tv_average"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/COLOR_FD6138"
+        android:textSize="40sp"
+        android:text="2.099%"/>
+
+    <ListView
+        android:id="@+id/lv_profit_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="10dp"
+        android:layout_margin="10dp" />
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:test="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="折线图——MyLineChart"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="折线图——自定义"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+
+    <com.xss.gxq.ui.views.MyLineChartView
+        android:id="@+id/myChartView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        test:TitleTextColor="#BBBBBB"
+        test:TitleTextSize="16sp"
+        test:YTextColor="#BBBBBB"
+        test:YTextSize="12sp"
+        test:XTextColor="#BBBBBB"
+        test:XTextSize="12sp"
+        test:RoundRectColor="#FD6138"
+        test:AverageTextColor="#ffffff"
+        test:AverageTextSize="12sp"
+        test:RoundRectRadius="5dp"
+        test:marginLeftOrRight="10dp"
+        test:xPadding="0dp"
+        test:yPadding="10dp"
+        test:titlePadding="10dp"/>
+</LinearLayout>
+</ScrollView>

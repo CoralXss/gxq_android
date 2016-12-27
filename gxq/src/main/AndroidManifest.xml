@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xss.gxq" >
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name" >
+
+        <!--HorizontalScrollActivity  CalendarActivity-->
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/CustomeTitle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--        <activity
+                    android:name=".WelcomeActivity"
+                    android:label="@string/app_name" />  -->
+
+                <activity
+                    android:name=".ui.home.GuideActivity"
+                    android:label="@string/app_name"
+                    android:theme="@style/CustomeTitle"/>
+
+                <activity
+                    android:name=".ui.home.SplashActivity"
+                    android:label="@string/app_name"
+                    android:theme="@style/CustomeTitle"/>
+
+        <activity
+            android:name=".ui.recommend.RecommendActivity"
+            android:label="@string/app_name"
+            android:theme="@style/CustomeTitle"/>
+
+        <activity
+            android:name=".ui.home.MainTabActivity"
+            android:label="@string/app_name"
+            android:theme="@style/CustomeTitle"/>
+
+        <activity
+            android:name=".ui.financeshop.AbsoluteProfitDetailActivity"
+            android:label="@string/app_name"
+            android:theme="@style/CustomeTitle"/>
+<!--
+        <activity
+            android:name=".ui.home.GuideTestActivity"
+            android:label="@string/app_name"
+            android:theme="@style/CustomeTitle"/>  -->
+
+    </application>
+
+</manifest>

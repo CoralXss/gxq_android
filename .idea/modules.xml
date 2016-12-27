@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gxq/gxq.iml" filepath="$PROJECT_DIR$/gxq/gxq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gxu_android.iml" filepath="$PROJECT_DIR$/gxu_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mpchartlib/mpchartlib.iml" filepath="$PROJECT_DIR$/mpchartlib/mpchartlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewPagerIndicator_Library/viewpagerindicator_library.iml" filepath="$PROJECT_DIR$/ViewPagerIndicator_Library/viewpagerindicator_library.iml" />
+    </modules>
+  </component>
+</project>

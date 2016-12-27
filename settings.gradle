@@ -1,0 +1,1 @@
+include ':app', ':gxq', ':viewpagerindicator_library', ':mpchartlib'

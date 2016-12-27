@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyChartView">
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="backGround" format ="reference|color" />
+
+        <!-- 表标题文本size-->
+        <attr name="TitleTextSize" format="dimension"/>
+        <!-- X轴标签文本大小 -->
+        <attr name="XTextSize" format="dimension"/>
+        <!-- Y轴标签文本大小 -->
+        <attr name="YTextSize" format="dimension"/>
+        <!-- 平均收益率文本大小 -->
+        <attr name="AverageTextSize" format="dimension"/>
+
+        <!-- 表标题颜色 -->
+        <attr name="TitleTextColor" format="color"/>
+        <!-- X轴标签颜色 -->
+        <attr name="XTextColor" format="color"/>
+        <!-- X轴标签颜色 -->
+        <attr name="YTextColor" format="color"/>
+        <!-- 平均收益率文本yanse -->
+        <attr name="AverageTextColor" format="color"/>
+
+        <!-- 折线颜色 -->
+        <attr name="LineColor" format="color"/>
+
+        <!-- 圆角矩形背景颜色 -->
+        <attr name="RoundRectColor" format="color"/>
+        <!-- 圆角矩形半径 -->
+        <attr name="RoundRectRadius" format="dimension"/>
+
+        <!--与父控件的左右间距-->
+        <attr name="marginLeftOrRight" format="dimension"/>
+        <!--设置X轴标签与X轴的垂直距离-->
+        <attr name="xPadding" format="dimension"/>
+        <!--设置Y轴标签与Y轴的横向距离-->
+        <attr name="yPadding" format="dimension"/>
+        <!--图标标题与图标间的距离-->
+        <attr name="titlePadding" format="dimension"/>
+
+    </declare-styleable>
+</resources>

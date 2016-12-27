@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_000000">#000000</color>
+    <color name="color_ffffff">#ffffff</color>
+
+    <!--开始理财按钮-->
+    <color name="color_00F2ED">#00F2ED</color>
+    <color name="color_00C9BD">#00C9BD</color>
+    <color name="color_50D2CC">#50D2CC</color>
+
+    <!--分割线颜色-->
+    <color name="color_E8E8E8">#E8E8E8</color>
+    <color name="color_F1F1F1">#F1F1F1</color>
+    <color name="color_BCBCBC">#BCBCBC</color>
+    <color name="color_DDDDDD">#DDDDDD</color>
+
+    <color name="color_FFAD5D">#FFAD5D</color>
+    <color name="color_FF9125">#FF9125</color>
+
+
+    <color name="COLOR_E8E8E8">#E8E8E8</color>  <!-- 网格线 -->
+
+    <color name="COLOR_FEE610">#FEE610</color>  <!-- 水印 -->
+
+    <color name="COLOR_FD6138">#FD6138</color>  <!-- 圆角矩形 -->
+
+    <color name="COLOR_BBBBBB">#BBBBBB</color>  <!-- X轴 -->
+
+    <color name="COLOR_E6E6E6">#E6E6E6</color>  <!-- Y轴 -->
+
+    <!--收益详情页面:33天背景字体  收益率 立即购买 计算器-->
+    <color name="color_FFE6CD">#FFE6CD</color>
+    <color name="color_FFAE60">#FFAE60</color>
+    <color name="color_FF8915">#FF8915</color>
+    <color name="color_FF8309">#FF8309</color>
+    <color name="color_FF9C3B">#FF9C3B</color>
+    <color name="color_F5F5F5">#F5F5F5</color>
+</resources>

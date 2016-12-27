@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_F1F1F1">
+
+    <LinearLayout
+        android:id="@+id/ll_main_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        style="@style/MyViewStyle" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:gravity="center">
+<!--
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        </LinearLayout>  -->
+
+        <TextView
+            android:id="@+id/tv_recommend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="热门推荐"
+            android:textSize="10sp"
+            android:textColor="@color/tab_main_text_color"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/bg_tab_tv_recommend"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_shop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="理财超市"
+            android:textSize="10sp"
+            android:textColor="@color/tab_main_text_color"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/bg_tab_tv_shop"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_finance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="我的资产"
+            android:textSize="10sp"
+            android:textColor="@color/tab_main_text_color"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/bg_tab_tv_finance"
+            android:gravity="center"/>
+
+
+
+        <TextView
+            android:id="@+id/tv_more"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="更多"
+            android:textSize="10sp"
+            android:textColor="@color/tab_main_text_color"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/bg_tab_tv_more"
+            android:gravity="center"/>
+   </LinearLayout>
+</LinearLayout>
